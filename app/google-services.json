@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1000848407710",
+    "firebase_url": "https://viral-comedy.firebaseio.com",
+    "project_id": "viral-comedy",
+    "storage_bucket": "viral-comedy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000848407710:android:85e3f0a9d16c0b15",
+        "android_client_info": {
+          "package_name": "com.comedyvideo.inos.comedyvideos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000848407710-cej6l2fj48ugha6hb52pp477v89pliuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.comedyvideo.inos.comedyvideos",
+            "certificate_hash": "719FBD99914612A1C768007A2889875AFA0048B6"
+          }
+        },
+        {
+          "client_id": "1000848407710-efc8bdgi4edse3j49hglt3j3mktbpaho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9_ZPKklvzfDP2Q7CZCXC8iZSwY6ilLXg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000848407710-efc8bdgi4edse3j49hglt3j3mktbpaho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

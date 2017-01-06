@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.comedyvideo.inos.comedyvideos.MainActivity">
+    <item
+        android:id="@+id/action_shareApp"
+        android:orderInCategory="100"
+        android:title="Share App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_contactUs"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+
+</menu>

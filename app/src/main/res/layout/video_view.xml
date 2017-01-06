@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/border">
+
+
+        <com.google.android.youtube.player.YouTubeThumbnailView
+            android:id="@+id/youtubethumbnailviewNew"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:src="@color/black" />
+
+        <TextView
+            android:id="@+id/text_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/youtubethumbnailviewNew"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:background="@drawable/duration_border"
+            android:paddingBottom="2dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="2dp"
+            android:text="demo"
+            android:textColor="@color/White" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/youtubethumbnailviewNew"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1.5"
+                android:layout_gravity="center"
+                android:src="@drawable/play_icon_new" />
+
+            <TextView
+                android:id="@+id/description_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_weight="7"
+                android:ellipsize="end"
+
+                android:ems="10"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="The Kapil Sharma Show - Episode jka sdjdsa dahjas dahsd akd dask dha  dakjd ak  askdjhaskdjh askdh asd daaskjd "
+                android:textSize="16sp"
+
+                />
+
+            <ImageView
+                android:id="@+id/shareApp_id"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+
+                android:layout_alignLeft="@+id/text_demo"
+                android:layout_alignStart="@+id/text_demo"
+
+
+                android:layout_below="@+id/youtubethumbnailviewNew"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:src="@drawable/share_icon" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
